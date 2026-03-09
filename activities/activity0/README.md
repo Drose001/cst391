@@ -135,8 +135,6 @@ URL:
 
 ---
 
-# API Request Flow
-
 ## API Request Flow
 
 ```mermaid
@@ -150,10 +148,8 @@ sequenceDiagram
     Browser->>ExpressServer: HTTP Request
     ExpressServer->>NodeApp: Process Route
     NodeApp-->>ExpressServer: Return Response
-    ExpressServer-->>Browser: Send "Hello World"
+    ExpressServer-->>Browser: Send Hello World
     Browser-->>User: Display Page
-# API Request Flow
-Display Page
 ```
 
 ---
