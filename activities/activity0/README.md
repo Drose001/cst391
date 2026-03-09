@@ -56,7 +56,7 @@ The development environment was validated by confirming the installation of the 
 # Project Structure
 
 ```
-project-folder
+MusicAPI
 │
 ├── src
 │   └── app.ts
