@@ -53,9 +53,6 @@ The development environment was validated by confirming the installation of the 
 
 ---
 
-<<<<<<< HEAD
-## Project Structure
-=======
 # Project Structure
 
 ```
@@ -81,7 +78,7 @@ MusicAPI
 
 ## 1. Node.js Version
 
-![Node Version](MusicAPI/images/node-version.png)
+![Node Version](images/node-version.png)
 
 *This screenshot shows the installed Node.js version using the command `node -v`. This confirms that Node.js is installed correctly.*
 
@@ -89,7 +86,7 @@ MusicAPI
 
 ## 2. NPM Version
 
-![NPM Version](MusicAPI/images/npm-version.png)
+![NPM Version](images/npm-version.png)
 
 *This screenshot shows the installed npm version using the command `npm -v`. This verifies that the Node Package Manager is installed and working.*
 
@@ -97,7 +94,7 @@ MusicAPI
 
 ## 3. Hello World Console Application
 
-![Hello World Console](MusicAPI/images/hello-console.png)
+![Hello World Console](images/hello-console.png)
 
 *This screenshot shows the simple Node.js console application running `app.js` and printing **Hello World** in the terminal.*
 
@@ -105,7 +102,7 @@ MusicAPI
 
 ## 4. Express Hello World in Browser
 
-![Express Hello World](MusicAPI/images/express-browser.png)
+![Express Hello World](images/express-browser.png)
 
 *This screenshot shows the Express server running and displaying the **Hello World** message in the browser.*
 
@@ -116,7 +113,7 @@ URL:
 
 ## 5. Hello World with Nodemon
 
-![Nodemon Running](MusicAPI/images/nodemon-running.png)
+![Nodemon Running](images/nodemon-running.png)
 
 *This screenshot shows the application running using the **nodemon utility**, which automatically restarts the server when code changes are made.*
 
@@ -124,7 +121,7 @@ URL:
 
 ## 6. TypeScript Hello World in Browser
 
-![TypeScript Hello World](MusicAPI/images/typescript-browser.png)
+![TypeScript Hello World](images/typescript-browser.png)
 
 *This screenshot shows the Node.js web service written in **TypeScript** running successfully in the browser.*
 
@@ -132,7 +129,7 @@ URL:
 
 ## 7. Commented app.ts File
 
-![Commented TypeScript Code](MusicAPI/images/app-ts-comments.png)
+![Commented TypeScript Code](images/app-ts-comments.png)
 
 *This screenshot shows the `app.ts` TypeScript file with descriptive comments explaining each line of code.*
 
@@ -140,6 +137,8 @@ URL:
 
 # API Request Flow
 
+## API Request Flow
+
 ```mermaid
 sequenceDiagram
     participant User
@@ -151,23 +150,10 @@ sequenceDiagram
     Browser->>ExpressServer: HTTP Request
     ExpressServer->>NodeApp: Process Route
     NodeApp-->>ExpressServer: Return Response
-    ExpressServer-->>Browser: Send Hello World
+    ExpressServer-->>Browser: Send "Hello World"
     Browser-->>User: Display Page
 # API Request Flow
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant Browser
-    participant ExpressServer
-    participant NodeApp
-
-    User->>Browser: Enter http://localhost:3000
-    Browser->>ExpressServer: HTTP Request
-    ExpressServer->>NodeApp: Process Route
-    NodeApp-->>ExpressServer: Return Response
-    ExpressServer-->>Browser: Send Hello World
-    Browser-->>User: Display Page
+Display Page
 ```
 
 ---
@@ -214,4 +200,3 @@ Skills:
 - SQL
 - Web Development
  
->>>>>>> 152ebe5 (Fix README image paths)
