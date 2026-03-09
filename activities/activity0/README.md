@@ -1,4 +1,3 @@
-
 # CST-391 Activity 0
 
 ![Node](https://img.shields.io/badge/Node.js-18+-green)
@@ -15,7 +14,7 @@ an Express web server, and a TypeScript implementation.
 
 ---
 
-# Table of Contents
+## Table of Contents
 
 - Overview
 - Technologies Used
@@ -28,7 +27,7 @@ an Express web server, and a TypeScript implementation.
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 - Node.js
 - npm
@@ -39,7 +38,7 @@ an Express web server, and a TypeScript implementation.
 
 ---
 
-# Environment Setup
+## Environment Setup
 
 The development environment was validated by confirming the installation of the following tools:
 
@@ -53,17 +52,28 @@ The development environment was validated by confirming the installation of the 
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```
-MusicAPI
+activity0
 │
-├── src
-│   └── app.ts
+├── MusicAPI
+│   ├── images
+│   │   ├── node-version.png
+│   │   ├── npm-version.png
+│   │   ├── hello-console.png
+│   │   ├── express-browser.png
+│   │   ├── nodemon-running.png
+│   │   ├── typescript-browser.png
+│   │   └── app-ts-comments.png
+│   │
+│   ├── src
+│   │   └── app.ts
+│   │
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── node_modules
 │
-├── app.js
-├── package.json
-├── tsconfig.json
 └── README.md
 ```
 
@@ -71,14 +81,9 @@ MusicAPI
 
 # Screenshots and Validation
 
-
----
-
-# Screenshots and Validation
-
 ## 1. Node.js Version
 
-![Node Version](images/node-version.png)
+![Node Version](MusicAPI/images/node-version.png)
 
 *This screenshot shows the installed Node.js version using the command `node -v`. This confirms that Node.js is installed correctly.*
 
@@ -86,7 +91,7 @@ MusicAPI
 
 ## 2. NPM Version
 
-![NPM Version](images/npm-version.png)
+![NPM Version](MusicAPI/images/npm-version.png)
 
 *This screenshot shows the installed npm version using the command `npm -v`. This verifies that the Node Package Manager is installed and working.*
 
@@ -94,7 +99,7 @@ MusicAPI
 
 ## 3. Hello World Console Application
 
-![Hello World Console](images/hello-console.png)
+![Hello World Console](MusicAPI/images/hello-console.png)
 
 *This screenshot shows the simple Node.js console application running `app.js` and printing **Hello World** in the terminal.*
 
@@ -102,7 +107,7 @@ MusicAPI
 
 ## 4. Express Hello World in Browser
 
-![Express Hello World](images/express-browser.png)
+![Express Hello World](MusicAPI/images/express-browser.png)
 
 *This screenshot shows the Express server running and displaying the **Hello World** message in the browser.*
 
@@ -113,7 +118,7 @@ URL:
 
 ## 5. Hello World with Nodemon
 
-![Nodemon Running](images/nodemon-running.png)
+![Nodemon Running](MusicAPI/images/nodemon-running.png)
 
 *This screenshot shows the application running using the **nodemon utility**, which automatically restarts the server when code changes are made.*
 
@@ -121,7 +126,7 @@ URL:
 
 ## 6. TypeScript Hello World in Browser
 
-![TypeScript Hello World](images/typescript-browser.png)
+![TypeScript Hello World](MusicAPI/images/typescript-browser.png)
 
 *This screenshot shows the Node.js web service written in **TypeScript** running successfully in the browser.*
 
@@ -129,7 +134,7 @@ URL:
 
 ## 7. Commented app.ts File
 
-![Commented TypeScript Code](images/app-ts-comments.png)
+![Commented TypeScript Code](MusicAPI/images/app-ts-comments.png)
 
 *This screenshot shows the `app.ts` TypeScript file with descriptive comments explaining each line of code.*
 
@@ -144,17 +149,17 @@ sequenceDiagram
     participant ExpressServer
     participant NodeApp
 
-    User->>Browser: Enter http://localhost:3000
+    User->>Browser: Enter "http://localhost:3000"
     Browser->>ExpressServer: HTTP Request
     ExpressServer->>NodeApp: Process Route
     NodeApp-->>ExpressServer: Return Response
-    ExpressServer-->>Browser: Send Hello World
+    ExpressServer-->>Browser: Send "Hello World"
     Browser-->>User: Display Page
 ```
 
 ---
 
-# Running the Project
+## Running the Project
 
 Install dependencies:
 
@@ -182,7 +187,7 @@ npx ts-node src/app.ts
 
 ---
 
-# Author
+## Author
 
 Doreen Rose  
 Bachelor's in Software Development  
@@ -195,4 +200,3 @@ Skills:
 - C#
 - SQL
 - Web Development
- 
