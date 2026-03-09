@@ -73,8 +73,7 @@ MusicAPI
 
 ## 1. Node.js Version
 
-![Node Version](/cst391/activities/images/node-version.png)
-
+![Node Version](cst391/activities/images/node-version.png)
 ### *This screenshot shows the installed Node.js version using the command `node -v`.This confirms that Node.js is installed correctly.*
 
 
@@ -82,7 +81,7 @@ MusicAPI
 
 ## 2. NPM Version
 
-![NPM Version](/cst391/activities/images/npm-version.png)
+![NPM Version](cst391/activities/images/npm-version.png)
 
 ### *This screenshot shows the installed npm version using the command `npm -v`. This verifies that the Node Package Manager is installed and working.*
 
@@ -91,7 +90,7 @@ MusicAPI
 
 ## 3. Hello World Console Application
 
-![Hello World Console](/cst391/activities/images/hello-console.png)
+![Hello World Console](cst391/activities/images/hello-console.png)
 
 ### *This screenshot shows the simple Node.js console application running `app.js` and printing **Hello World** in the terminal.*
 
@@ -99,7 +98,7 @@ MusicAPI
 
 ## 4. Express Hello World in Browser
 
-![Express Hello World](/cst391/activities/images/express-browser.png)
+![Express Hello World](cst391/activities/images/express-browser.png)
 
 ### *This screenshot shows the Express server running and displaying the **Hello World** message in the browser.*
 
@@ -110,7 +109,7 @@ URL:
 
 ## 5. Hello World with Nodemon
 
-![Nodemon Running](/cst391/activities/images/nodemon-running.png)
+![Nodemon Running](cst391/activities/images/nodemon-running.png)
 
 ### *This screenshot shows the application running using the **nodemon utility**, which automatically restarts the server when code changes are made.*
 
@@ -118,7 +117,7 @@ URL:
 
 ### 6. TypeScript Hello World in Browser
 
-![TypeScript Hello World](/cst391/activities/images/typescript-browser.png)
+![TypeScript Hello World](cst391/activities/images/typescript-browser.png)
 
 ### *This screenshot shows the Node.js web service written in **TypeScript** running successfully in the browser.*
 
@@ -126,7 +125,7 @@ URL:
 
 ## 7. Commented app.ts File
 
-![Commented TypeScript Code](/cst391/activities/images/app-ts-comments.png)
+![Commented TypeScript Code](cst391/activities/images/app-ts-comments.png)
 
 #### *This screenshot shows the `app.ts` TypeScript file with descriptive comments explaining each line of code.*
 
@@ -191,3 +190,4 @@ Skills:
 - C#
 - SQL
 - Web Development
+ 
