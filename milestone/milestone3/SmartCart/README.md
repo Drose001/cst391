@@ -310,15 +310,10 @@ This milestone helped demonstrate how backend APIs work in a real web applicatio
 
 ---
 
-## Deliverables Included
+## Links
 
-- Updated Markdown design report
-- Backend TypeScript app
-- MySQL schema file
-- Postman collection
-- PowerPoint presentation
-- Screencast script
-- Placeholder files for GitHub and screencast links
+- https://drive.google.com/file/d/1yD3vtBLNywNu6laHiMNc2uzls-7G15py/view?usp=sharing
+- https://github.com/Drose001/cst391/tree/main/milestone/milestone3/SmartCart
 
 ---
 
