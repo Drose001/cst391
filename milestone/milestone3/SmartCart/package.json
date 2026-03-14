@@ -1,0 +1,33 @@
+{
+  "name": "smartcart-grocery-planner-backend",
+  "version": "1.0.0",
+  "description": "Milestone 3 backend REST API for SmartCart Grocery Planner",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "mysql",
+    "rest-api",
+    "smartcart"
+  ],
+  "author": "Doreen Rose",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}
