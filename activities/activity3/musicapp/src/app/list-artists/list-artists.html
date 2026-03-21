@@ -1,0 +1,13 @@
+<h2>Artists</h2>
+
+<ul class="list-group">
+  <li
+    class="list-group-item"
+    *ngFor="let artist of artists"
+    [routerLink]="['/list-albums']"
+    [queryParams]="{ artist: artist.artist }"
+    style="cursor: pointer"
+  >
+    {{ artist.artist }}
+  </li>
+</ul>

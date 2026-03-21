@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "artist": "Taylor Swift",
+    "title": "1989",
+    "year": 2014,
+    "genre": "Pop",
+    "image": "assets/1989.jpg"
+  },
+  {
+    "id": 2,
+    "artist": "Michael Jackson",
+    "title": "Thriller",
+    "year": 1982,
+    "genre": "Pop",
+    "image": "assets/thriller.jpg"
+  },
+  {
+    "id": 3,
+    "artist": "Adele",
+    "title": "25",
+    "year": 2015,
+    "genre": "Soul",
+    "image": "assets/25.jpg"
+  }
+]
