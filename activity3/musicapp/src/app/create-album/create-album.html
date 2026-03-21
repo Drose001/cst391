@@ -1,0 +1,28 @@
+<h2>Create Album</h2>
+
+<div class="mb-3">
+  <label class="form-label">Artist</label>
+  <input type="text" class="form-control" [(ngModel)]="album.artist" name="artist">
+</div>
+
+<div class="mb-3">
+  <label class="form-label">Title</label>
+  <input type="text" class="form-control" [(ngModel)]="album.title" name="title">
+</div>
+
+<div class="mb-3">
+  <label class="form-label">Year</label>
+  <input type="number" class="form-control" [(ngModel)]="album.year" name="year">
+</div>
+
+<div class="mb-3">
+  <label class="form-label">Genre</label>
+  <input type="text" class="form-control" [(ngModel)]="album.genre" name="genre">
+</div>
+
+<div class="mb-3">
+  <label class="form-label">Image</label>
+  <input type="text" class="form-control" [(ngModel)]="album.image" name="image">
+</div>
+
+<button type="button" class="btn btn-primary" (click)="onSubmit()">Create Album</button>
