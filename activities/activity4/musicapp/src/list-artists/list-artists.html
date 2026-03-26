@@ -1,0 +1,11 @@
+@if (selectedArtist == null) {
+<div class="list-group">
+  @for (artist of artists; track $index) {
+  <button class="list-group-item" (click)="onSelectArtist(artist)">
+    {{ artist.artist }}
+  </button>
+  }
+</div>
+} @if (selectedArtist) {
+<app-list-albums [artist]="selectedArtist"></app-list-albums>
+}

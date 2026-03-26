@@ -1,0 +1,34 @@
+<div *ngIf="album">
+  <h3>Edit Album</h3>
+
+  <form (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label class="form-label">Title</label>
+      <input class="form-control" [(ngModel)]="album.title" name="title" />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Artist</label>
+      <input class="form-control" [(ngModel)]="album.artist" name="artist" />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Description</label>
+      <input class="form-control" [(ngModel)]="album.description" name="description" />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Year</label>
+      <input class="form-control" [(ngModel)]="album.year" name="year" />
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Image</label>
+      <input class="form-control" [(ngModel)]="album.image" name="image" />
+    </div>
+
+    <button type="submit" class="btn btn-primary me-2">Save</button>
+    <button type="button" class="btn btn-danger me-2" (click)="onDelete()">Delete</button>
+    <button type="button" class="btn btn-secondary" (click)="onCancel()">Cancel</button>
+  </form>
+</div>
