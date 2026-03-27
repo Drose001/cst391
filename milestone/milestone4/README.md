@@ -181,3 +181,9 @@ http://localhost:4200
 
 ## 🎯 Conclusion
 This project demonstrates a fully functional Angular front-end application integrated with a backend API. It successfully performs CRUD operations and provides a clean interface for managing grocery items.
+
+---
+
+
+## Screencast
+https://drive.google.com/file/d/1G7VO2xq0Tj26zrfYw-O0tm57gl_ymV4A/view?usp=sharing 
