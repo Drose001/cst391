@@ -8,7 +8,9 @@ Bachelor’s in Software Development
 ---
 
 ## 📌 Overview
-SmartCart is a front-end web application built using Angular that allows users to manage grocery items. The application connects to a REST API and supports full CRUD operations (Create, Read, Update, Delete).
+SmartCart is a front-end web application built using Angular that allows users to manage grocery items through a browser-based user interface. The application connects to a REST API developed with Node.js and Express, and the data is stored in a MySQL relational database.
+
+The Angular frontend communicates with the backend API using HTTP requests. The backend processes the request and interacts with the database, then returns a JSON response that updates the user interface.
 
 ---
 
@@ -20,6 +22,7 @@ SmartCart is a front-end web application built using Angular that allows users t
 - View product details
 - Responsive UI using Bootstrap
 - Navigation with Angular Router
+- Integration with a REST API
 
 ---
 
@@ -51,6 +54,9 @@ flowchart TD
     B --> A
 ```
 
+### Explanation
+This diagram shows how data flows through the system from user to database and back.
+
 ---
 
 ## 🔄 CRUD Interaction Flow
@@ -69,6 +75,9 @@ flowchart LR
     B --> G[Updated UI]
 ```
 
+### Explanation
+Each user action follows this path through the system.
+
 ---
 
 ## ⏱️ Sequence Diagram
@@ -85,10 +94,10 @@ sequenceDiagram
     UI->>Service: getProducts()
     Service->>API: GET /api/items
     API->>DB: SELECT * FROM items
-    DB-->>API: Product rows
-    API-->>Service: JSON response
-    Service-->>UI: Product list
-    UI-->>User: Display products
+    DB-->>API: Data
+    API-->>Service: JSON
+    Service-->>UI: Products
+    UI-->>User: Display
 ```
 
 ---
@@ -119,71 +128,27 @@ http://localhost:3000/api/items
 
 ## ▶️ Running the Application
 
-### Install dependencies
-npm install
-
-### Run Angular
-ng serve
-
-### Open browser
-http://localhost:4200
+npm install  
+ng serve  
+http://localhost:4200  
 
 ---
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
 ![Home](images/home.png)
-
-### 📋 Product List
 ![Product List](images/product-list.png)
-
-### ➕ Add Product
 ![Add Product](images/add-product.png)
-
-### ✏️ Edit Product
 ![Edit Product](images/edit-product.png)
-
-### 🔍 Product Details
 ![Product Details](images/product-detail.png)
-
-### ❌ Delete Confirmation
 ![Delete](images/delete.png)
 
 ---
 
-## ⚠️ Challenges
-- Handling async API calls in Angular
-- Fixing two-way binding using ngModel
-- Managing data types (boolean vs number)
-- Debugging PUT request validation errors
-
----
-
-## 🐞 Known Issues
-| Issue | Description |
-|------|------------|
-| Form validation | Minimal validation implemented |
-| Error handling | Basic console logging |
-| UI polish | Can be improved |
-
----
-
-## 📚 Lessons Learned
-- How Angular connects to REST APIs
-- Using async/await with Observables
-- Angular routing between components
-- Debugging frontend and backend integration
-- Managing application state
-
----
-
-
 ## 🎯 Conclusion
-This project demonstrates a fully functional Angular front-end application integrated with a backend API. It successfully performs CRUD operations and provides a clean interface for managing grocery items.
+This project demonstrates a complete Angular frontend connected to a REST API performing full CRUD operations.
 
 ---
-
 
 ## Screencast
-https://drive.google.com/file/d/1G7VO2xq0Tj26zrfYw-O0tm57gl_ymV4A/view?usp=sharing 
+https://drive.google.com/file/d/1G7VO2xq0Tj26zrfYw-O0tm57gl_ymV4A/view
