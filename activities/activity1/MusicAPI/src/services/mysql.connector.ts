@@ -6,14 +6,14 @@ const initializeMySqlConnector = () => {
   try {
     pool = createPool({
       connectionLimit: parseInt(
-        process.env.MY_SQL_DB_CONNECTION_LIMIT != undefined
+        process.env.MY_SQL_DB_CONNECTION_LIMIT !== undefined
           ? process.env.MY_SQL_DB_CONNECTION_LIMIT
-          : ''
+          : '10'
       ),
       port: parseInt(
-        process.env.MY_SQL_DB_PORT != undefined
+        process.env.MY_SQL_DB_PORT !== undefined
           ? process.env.MY_SQL_DB_PORT
-          : ''
+          : '3306'
       ),
       host: process.env.MY_SQL_DB_HOST,
       user: process.env.MY_SQL_DB_USER,
@@ -26,10 +26,10 @@ const initializeMySqlConnector = () => {
 
     pool.getConnection((err, connection) => {
       if (err) {
-        console.log('error mysql failed to connect');
-        throw new Error('not able to connect to database');
+        console.log('❌ MySQL connection failed:', err);
+        return;
       } else {
-        console.log('connection made');
+        console.log('MySQL connection made');
         connection.release();
       }
     });
@@ -38,13 +38,13 @@ const initializeMySqlConnector = () => {
       '[mysql.connector][initializeMySqlConnector][Error]: ',
       error
     );
-    throw new Error('failed to initialized pool');
+    throw new Error('failed to initialize pool');
   }
 };
 
 export const execute = <T>(
   query: string,
-  params: string[] | Object
+  params: string[] | object
 ): Promise<T> => {
   try {
     if (!pool) {
@@ -53,8 +53,14 @@ export const execute = <T>(
 
     return new Promise<T>((resolve, reject) => {
       pool!.query(query, params, (error, results) => {
-        if (error) reject(error);
-        else resolve(results);
+        if (error) {
+          console.error('[mysql.connector][query][Error]:', error);
+          console.error('[mysql.connector][query][SQL]:', query);
+          console.error('[mysql.connector][query][Params]:', params);
+          reject(error);
+        } else {
+          resolve(results);
+        }
       });
     });
   } catch (error) {

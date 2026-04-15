@@ -1,0 +1,11 @@
+.post {
+  border-top: 3px dotted #f3057c; 
+  border-right: 3px dashed #000000;
+  border-bottom: 3px solid #f3057c;
+  border-left: 3px double #000000; 
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #6108d4;
+
+}

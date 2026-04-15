@@ -10,9 +10,13 @@ dotenv.config();
 const app = express();
 const port = 3000;
 
+// if (process.env.NODE_ENV == 'development') {
+//   // add logger middleware
+//   app.use(logger);
+//   console.log(`${process.env.GREETING} in dev mode`);
+// }
+
 if (process.env.NODE_ENV == 'development') {
-  // add logger middleware
-  app.use(logger);
   console.log(`${process.env.GREETING} in dev mode`);
 }
 
