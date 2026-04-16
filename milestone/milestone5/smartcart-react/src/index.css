@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffe4ec, #f8f9fa);
+}
+
+.navbar {
+  background: linear-gradient(to right, #ff6f91, #ff9aa2) !important;
+}
+
+.btn-success {
+  background-color: #ff6f91;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #ff4f7b;
+}
+
+.card {
+  border-radius: 16px;
+  border: none;
+}
+
+.table thead {
+  background-color: #ff9aa2;
+  color: white;
+}
