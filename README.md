@@ -46,13 +46,13 @@ The activity assignments throughout this course focused on building a music-base
 
 | Activity | Description |
 |--|--|
-|[Activity 1](../cst391/activities/activity1/README.md)  | Set up the development environment and configured the MySQL database for storing music-related data. |
-|[Activity 2](../cst391/activities/activity2/README.md)  | Created initial REST API endpoints using Express to manage music data such as artists, albums, and tracks. |
-|[Activity 3](../cst391/activities/activity3/README.md)  | Implemented CRUD operations for music entities and connected backend logic to the database. |
-|[Activity 4](../cst391/activities/activity4/README.md)  | Improved API structure by adding validation, error handling, and better route organization. |
-|[Activity 5](../cst391/activities/activity5/README.md)  | Introduced frontend concepts and began preparing for full-stack integration using JavaScript frameworks. |
-|[Activity 6](../cst391/activities/activity6/README.md)  | Enhanced application structure, improved code modularity, and refined API performance. |
-|[Activity 7](../cst391/activities/activity7/README.md)  | Completed integration concepts and finalized the music application foundation for full-stack development. |
+| [Activity 1](../cst391/activities/activity1/README.md)  | Set up the development environment and configured the MySQL database for storing music-related data. |
+| [Activity 2](../cst391/activities/activity2/README.md)  | Created initial REST API endpoints using Express to manage music data such as artists, albums, and tracks. |
+| [Activity 3](../cst391/activities/activity3/README.md)  | Implemented CRUD operations for music entities and connected backend logic to the database. |
+| [Activity 4](../cst391/activities/activity4/README.md)  | Improved API structure by adding validation, error handling, and better route organization. |
+| [Activity 5](../cst391/activities/activity5/README.md)  | Introduced frontend concepts and began preparing for full-stack integration using JavaScript frameworks. |
+| [Activity 6](../cst391/activities/activity6/README.md)  | Enhanced application structure, improved code modularity, and refined API performance. |
+| [Activity 7](../cst391/activities/activity7/README.md)  | Completed integration concepts and finalized the music application foundation for full-stack development. |
 
 ---
 
@@ -60,11 +60,11 @@ The activity assignments throughout this course focused on building a music-base
 
 | Milestone | Description |
 |--|--|
-|[Milestone 1](../cst391/milestone/milestone1/README.md) | Project proposal outlining the SmartCart application, including design, architecture, and planned features. |
-|[Milestone 2](../cst391/milestone/milestone2/README.md) | Backend development including API creation and database integration. |
-|[Milestone 3](../cst391/milestone/milestone3/README.md) | Completed REST API functionality with full CRUD operations and testing. |
-|[Milestone 4](../cst391/milestone/milestone4/README.md) | Developed frontend application using React and connected it to backend APIs. |
-|[Milestone 5](../cst391/milestone/milestone5/README.md) | Finalized full-stack integration, UI improvements, category system, and dynamic features. |
+| [Milestone 1](../cst391/milestone/milestone1/README.md) | Project proposal outlining the SmartCart application, including design, architecture, and planned features. |
+| [Milestone 2](../cst391/milestone/milestone2/README.md) | Backend development including API creation and database integration. |
+| [Milestone 3](../cst391/milestone/milestone3/README.md) | Completed REST API functionality with full CRUD operations and testing. |
+| [Milestone 4](../cst391/milestone/milestone4/README.md) | Developed frontend application using React and connected it to backend APIs. |
+| [Milestone 5](../cst391/milestone/milestone5/README.md) | Finalized full-stack integration, UI improvements, category system, and dynamic features. |
 
 ---
 
