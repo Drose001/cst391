@@ -46,7 +46,7 @@ The activity assignments throughout this course focused on building a music-base
 
 | Activity | Description |
 |--|--|
-| [Activity 1](../cst391/activities/activity1/README.md)  | Set up the development environment and configured the MySQL database for storing music-related data. |
+| [Activity 1](../activities/activity1/README.md)  | Set up the development environment and configured the MySQL database for storing music-related data. |
 | [Activity 2](../cst391/activities/activity2/README.md)  | Created initial REST API endpoints using Express to manage music data such as artists, albums, and tracks. |
 | [Activity 3](../cst391/activities/activity3/README.md)  | Implemented CRUD operations for music entities and connected backend logic to the database. |
 | [Activity 4](../cst391/activities/activity4/README.md)  | Improved API structure by adding validation, error handling, and better route organization. |
