@@ -65,7 +65,6 @@ The activity assignments throughout this course focused on building a music-base
 |[Milestone 3](../cst391/milestone/milestone3/README.md) | Completed REST API functionality with full CRUD operations and testing. |
 |[Milestone 4](../cst391/milestone/milestone4/README.md) | Developed frontend application using React and connected it to backend APIs. |
 |[Milestone 5](../cst391/milestone/milestone5/README.md) | Finalized full-stack integration, UI improvements, category system, and dynamic features. |
-|[Milestone 6](../cst391/milestone/milestone6/README.md) | Completed presentation, documentation, and screencast demonstrating full application functionality. |
 
 ---
 
