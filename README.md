@@ -51,9 +51,9 @@ The activity assignments throughout this course focused on building a music-base
 | [Activity 2](./activities/activity2/README.md) | Created initial REST API endpoints using Express to manage music data such as artists, albums, and tracks. |
 | [Activity 3](./activities/activity3/README.md) | Implemented CRUD operations for music entities and connected backend logic to the database. |
 | [Activity 4](./activities/activity4/README.md) | Improved API structure by adding validation, error handling, and better route organization. |
-| [Activity 5](./activities/activity5/README.md) | Introduced frontend concepts and began preparing for full-stack integration using JavaScript frameworks. |
-| [Activity 6](./activities/activity6/README.md) | Enhanced application structure, improved code modularity, and refined API performance. |
-| [Activity 7](./activities/activity7/README.md) | Completed integration concepts and finalized the music application foundation for full-stack development. |
+| [Activity 5](./activities/activity5/music/README.md) | Introduced frontend concepts and began preparing for full-stack integration using JavaScript frameworks. |
+| [Activity 6](./activities/activity6/music/README.md) | Enhanced application structure, improved code modularity, and refined API performance. |
+| [Activity 7](./activities/activity7/music/README.md) | Completed integration concepts and finalized the music application foundation for full-stack development. |
 
 ---
 ## Practice Activities
