@@ -46,13 +46,14 @@ The activity assignments throughout this course focused on building a music-base
 
 | Activity | Description |
 |--|--|
-| [Activity 1](../cst391/activities/activity1/README.md)  | Set up the development environment and configured the MySQL database for storing music-related data. |
-| [Activity 2](../cst391/activities/activity2/README.md)  | Created initial REST API endpoints using Express to manage music data such as artists, albums, and tracks. |
-| [Activity 3](../cst391/activities/activity3/README.md)  | Implemented CRUD operations for music entities and connected backend logic to the database. |
-| [Activity 4](../cst391/activities/activity4/README.md)  | Improved API structure by adding validation, error handling, and better route organization. |
-| [Activity 5](../cst391/activities/activity5/README.md)  | Introduced frontend concepts and began preparing for full-stack integration using JavaScript frameworks. |
-| [Activity 6](../cst391/activities/activity6/README.md)  | Enhanced application structure, improved code modularity, and refined API performance. |
-| [Activity 7](../cst391/activities/activity7/README.md)  | Completed integration concepts and finalized the music application foundation for full-stack development. |
+| [Activity 0](./activities/activity0/README.md) | Initial setup and course introduction, including environment configuration and understanding project requirements. |
+| [Activity 1](./activities/activity1/README.md) | Set up the development environment and configured the MySQL database for storing music-related data. |
+| [Activity 2](./activities/activity2/README.md) | Created initial REST API endpoints using Express to manage music data such as artists, albums, and tracks. |
+| [Activity 3](./activities/activity3/README.md) | Implemented CRUD operations for music entities and connected backend logic to the database. |
+| [Activity 4](./activities/activity4/README.md) | Improved API structure by adding validation, error handling, and better route organization. |
+| [Activity 5](./activities/activity5/README.md) | Introduced frontend concepts and began preparing for full-stack integration using JavaScript frameworks. |
+| [Activity 6](./activities/activity6/README.md) | Enhanced application structure, improved code modularity, and refined API performance. |
+| [Activity 7](./activities/activity7/README.md) | Completed integration concepts and finalized the music application foundation for full-stack development. |
 
 ---
 ## Practice Activities
