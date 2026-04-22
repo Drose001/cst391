@@ -74,7 +74,7 @@ These frontend practice applications directly contributed to the development of 
 | Milestone | Description |
 |--|--|
 | [Milestone 1](./milestone/milestone1/SmartCart_README.md) | Project proposal outlining the SmartCart application, including design, architecture, and planned features. |
-| [Milestone 2](./milestone/milestone2/README.md) | Backend development including API creation and database integration. |
+| [Milestone 2](./milestone/milestone2/SmartCart_2_README.md) | Backend development including API creation and database integration. |
 | [Milestone 3](./milestone/milestone3/README.md) | Completed REST API functionality with full CRUD operations and testing. |
 | [Milestone 4](./milestone/milestone4/README.md) | Developed frontend application using React and connected it to backend APIs. |
 | [Milestone 5](./milestone/milestone5/README.md) | Finalized full-stack integration, UI improvements, category system, and dynamic features. |
